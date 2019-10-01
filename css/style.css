@@ -1,0 +1,357 @@
+body
+{
+	font-family: nunito,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    background: #f5f8fd;
+
+}
+.logo-img
+{
+	    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 21px;
+    height: 66px;
+    margin-left: 21px;
+
+}
+
+.bg-light {
+    background-color: #f5f8fd!important;
+    background: #fff;
+    z-index: 22;
+    padding: 0px;
+    font-weight: bold;
+}
+
+
+.section-header h3 {
+    font-size: 36px;
+    color: #413e66;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.section-header p {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: #535074;
+    width: 50%;
+}
+.box:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.container.section-bg {
+    margin-top: 35px;
+}
+
+.card
+{
+    transition: 1s ease all;
+    cursor: pointer;
+}
+
+.card:hover
+{
+	    transform: translateY(10px);
+}
+
+.card-body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #f5f8fd;
+    transition: 1s ease all;
+}
+.card:hover .card-body 
+{
+    opacity: 1;
+}
+
+div#more {
+    background: #ffffff;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: #f4b00f;
+}
+
+
+.btn-warning {
+    color: #ffffff;
+    background-color: #f7b30f;
+    border-color: #ffc107;
+    font-weight: bold;
+
+}
+.btn-warning:hover {
+    color: #ffffff;
+}
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #f8b410;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+
+.img-serv
+{
+	    max-width: 100%;
+    height: auto;
+    width: 80px;
+}
+
+ .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+}
+
+
+span.prog {
+    height: 3px;
+    position: absolute;
+    background: #017afd;
+    top: 0px;
+    width: 0%;
+    left: 0;
+    transition: 1s ease all;
+}
+
+.box:hover .prog
+{
+	width: 100%;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fbad27;
+}
+
+.carousel-caption.d-none.d-md-block {
+    background: #00000047;
+    padding: 31px;
+}
+
+.center {
+    padding: 5px;
+    border-top-left-radius: 72px;
+    border-bottom-right-radius: 74px;
+}
+
+
+.black-box {
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 22px;
+    margin-top: 43px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.black-box h5
+{
+
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.1;
+    z-index: 1;
+
+}
+.black-box p
+{
+    color: rgba(255,255,255,.6);
+    font-weight: 600;
+    z-index: 1;
+    font-size: 1.2rem;
+}
+.container
+{
+	    position: relative;
+	    z-index: 2;
+
+}
+
+img.card-img-top {
+    min-height: 261px;
+}
+.row
+{
+	margin: 0px;
+}
+.first-span
+{
+	    color: #fdf9f9;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.1;
+}
+.skewed-bg {
+    background: #FFC107;
+    padding: 200px 0;
+    -webkit-transform: skew(0deg, -10deg);
+    transform: skew(0deg, -19deg);
+    margin-top: -80px;
+    background-color: #ffb800;
+    background-image: url(https://startbootstrap.com/assets/img/overlay.svg),linear-gradient(45deg,#ffb800 0%,#e6a600 100%);
+    background-size: cover;
+}
+
+.skewed-bg .content {
+    -webkit-transform: skew(0deg, 10deg);
+    transform: skew(0deg, 19deg);
+    text-align: center;
+}
+
+.home-row-head.text-center {
+    padding: 20px;
+    margin-top: -18px;
+}
+
+.home-row-head
+{
+	text-align: center;
+}
+
+.black-bg {
+    background-color: #111;
+    width: 100%;
+    padding: 13px;
+    margin-top: 38px;
+    padding: 3rem 0 7rem;
+    position: relative;
+    background-color: #ffb800;
+    background-image: url(https://startbootstrap.com/assets/img/overlay.svg),linear-gradient(45deg,#ffb800 0%,#e6a600 100%);
+    background-size: cover;
+    z-index: 0;
+}
+
+.footer
+{
+    background: rgb(0, 0, 0);
+    padding: 37px;
+    background-image: url(https://startbootstrap.com/assets/img/overlay.svg),linear-gradient(45deg,#1b1b1a 0%,#000000 100%);
+    background-size: cover;
+}
+.selectboxit-container .selectboxit {
+    width: 100%;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    display: block;
+    background: #ffffffc9;
+    position: relative;
+    max-width: 59px;
+}
+.selectboxit-container {
+    width: 100%;
+    max-width: 59px;
+}
+
+
+.validation {
+    display: none;
+    position: relative;
+    margin: 4px 0 10px;
+    font-size: 12px;
+    padding: 5px 10px;
+    background: #faebcc;
+    border: 1px solid #faebcc;
+    color: #8a6d3b;
+    border-radius: 5px;
+}
+
+.footer h1
+
+{
+    text-align: center;
+    padding: 25px;
+    color: #fFF;
+}
+.footer h2
+
+{
+    text-align: center;
+    color: #fFF;
+}
+
+.footer p
+{
+    text-align: center;
+    color: #fff;
+    padding: 13px;
+}
+
+.footer .social {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+img.lazy
+{
+    display: block;
+    height: 100%;
+    min-height: 105px;
+    background-image: url(data:image/gif;base64,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);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+/* Add a hover effect if you want */s
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: white;
+}
+
+.cbalink
+{
+display:none;
+}
+
